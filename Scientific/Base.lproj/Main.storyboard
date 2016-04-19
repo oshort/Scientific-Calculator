@@ -27,6 +27,9 @@
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="AC"/>
+                                        <connections>
+                                            <action selector="allClearTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uUs-7c-MbL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMz-Ep-znf">
                                         <rect key="frame" x="154" y="8" width="146" height="83"/>
@@ -39,6 +42,9 @@
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="÷"/>
+                                        <connections>
+                                            <action selector="divisionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kI2-2V-jan"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6H-wT-HnC">
                                         <rect key="frame" x="301" y="8" width="145" height="83"/>
@@ -76,6 +82,9 @@
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="7"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ymv-v1-hjF"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dz0-w3-lQK">
                                         <rect key="frame" x="154" y="8" width="146" height="82"/>
@@ -83,6 +92,9 @@
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="8"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hky-ha-Ofs"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbh-EC-B5A">
                                         <rect key="frame" x="447" y="8" width="145" height="82"/>
@@ -90,6 +102,9 @@
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="x"/>
+                                        <connections>
+                                            <action selector="multiplicationTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3zg-kf-tQ3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRH-pR-E1q">
                                         <rect key="frame" x="301" y="8" width="145" height="82"/>
@@ -97,6 +112,9 @@
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="9"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CFs-RT-avF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.78236510950000004" green="0.78126321990000003" blue="0.80051048719999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -128,24 +146,36 @@
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="4"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CXj-RY-NCk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kD-C4-Mgm">
                                         <rect key="frame" x="154" y="8" width="146" height="83"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="5"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BaH-tq-EsV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6a-Il-DDa">
                                         <rect key="frame" x="447" y="8" width="145" height="83"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="subtractionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1UI-aW-LdK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEM-03-ikT">
                                         <rect key="frame" x="301" y="8" width="145" height="83"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="6"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p8Z-sQ-0aJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.78236510950000004" green="0.78126321990000003" blue="0.80051048719999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -176,24 +206,36 @@
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="1"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zGb-SI-J8d"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNO-hI-Knh">
                                         <rect key="frame" x="154" y="8" width="146" height="82"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="2"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U6N-Dg-gdY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNw-w5-Lgk">
                                         <rect key="frame" x="301" y="8" width="145" height="82"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="3"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O1f-nh-dck"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBv-yW-MIX">
                                         <rect key="frame" x="447" y="8" width="145" height="82"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="additionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7kW-fW-BIk"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.78236510950000004" green="0.78126321990000003" blue="0.80051048719999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -233,18 +275,27 @@
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="0"/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lnz-oo-FLd"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7j2-LM-dbF">
                                         <rect key="frame" x="300" y="8" width="146" height="83"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="."/>
+                                        <connections>
+                                            <action selector="operandTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sza-gI-cfz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PpT-81-Ze1">
                                         <rect key="frame" x="447" y="8" width="145" height="83"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="25"/>
                                         <state key="normal" title="="/>
+                                        <connections>
+                                            <action selector="equalTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ICp-BW-XFH"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.78236510950000004" green="0.78126321990000003" blue="0.80051048719999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -291,6 +342,9 @@
                             <constraint firstItem="PVP-Bt-z8m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="wPb-FB-Gpv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="displayLabel" destination="Cpy-yP-X0F" id="DtP-o5-eOl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
