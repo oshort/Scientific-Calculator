@@ -258,7 +258,7 @@
                                     <constraint firstAttribute="bottom" secondItem="NNw-w5-Lgk" secondAttribute="bottom" constant="8" id="wB6-ts-dFO"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Cpy-yP-X0F">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="Cpy-yP-X0F">
                                 <rect key="frame" x="20" y="20" width="560" height="79"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="79" id="6YU-hs-Wwl"/>

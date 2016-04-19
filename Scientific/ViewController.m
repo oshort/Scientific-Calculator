@@ -52,14 +52,20 @@
     if([self.displayLabel.text isEqualToString:@"0"]){
         
         self.displayLabel.text = sender. titleLabel.text;
-    }else {
-        if([sender.titleLabel.text isEqualToString: @"."] && [self.displayLabel.text containsString:@"."]){
-            
-    }else{
-        self.displayLabel.text = [self.displayLabel.text stringByAppendingString:sender.titleLabel.text];
-        }
-    
     }
+    
+    else {
+        if([sender.titleLabel.text isEqualToString: @"."] && [self.displayLabel.text containsString:@"."]){
+        
+    }   else{
+            if (brain.userIsTypingNumber ==YES){
+                self.displayLabel.text = sender.titleLabel.text;
+                brain = [[CalculatorBrain alloc]init];
+            }else{
+            self.displayLabel.text = [self.displayLabel.text stringByAppendingString:sender.titleLabel.text];
+        }
+    }
+}
     
     
 }
@@ -94,7 +100,9 @@
     brain.operand2String = [self.displayLabel.text mutableCopy];
     brain.operand2 = [brain.operand2String floatValue];
     self.displayLabel.text = [brain executeOperationOnOperands];
-    brain = [[CalculatorBrain alloc]init];
+    
+    
+    brain.userIsTypingNumber = YES;
     }
 
 

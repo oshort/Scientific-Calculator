@@ -42,7 +42,7 @@
                 break;
                 
             case OperatorTypeDivision:
-                result= self.operand1 /self.operand2;
+                result = self.operand1 /self.operand2;
                 break;
                 
             default:
