@@ -6,6 +6,8 @@
 //  Copyright © 2016 Oliver Short. All rights reserved.
 //
 
+
+
 #import "ViewController.h"
 #import "CalculatorBrain.h"
 
@@ -62,7 +64,6 @@
     
 }
 -(IBAction)additionTapped:(UIButton*)sender;{
-    
     brain.operatorType = OperatorTypeAddition;
     brain.operand1String = [self.displayLabel.text mutableCopy];
     brain.operand1 = [brain.operand1String floatValue];
@@ -93,13 +94,15 @@
     brain.operand2String = [self.displayLabel.text mutableCopy];
     brain.operand2 = [brain.operand2String floatValue];
     self.displayLabel.text = [brain executeOperationOnOperands];
+    brain = [[CalculatorBrain alloc]init];
     }
+
 
 -(IBAction)allClearTapped:(UIButton*)sender;{
     self.displayLabel.text =@"0";
     //reset the brain
+   
     
-    brain = [[CalculatorBrain alloc]init];
 }
 
 @end
