@@ -3,7 +3,6 @@
 <h3>Bugz</h3>
 
 1. Post Solution: operandTapped appends to end of string id displayLabel
-
 2. Text input is not limited to view of the label we have defined 
 3. After pressing the equals sign from just one number we get an 'invalid' return
 4. After that number is returned (from bug 3), want to be able to use that as an operand
